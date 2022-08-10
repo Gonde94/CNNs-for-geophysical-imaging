@@ -7,4 +7,4 @@ and location. The world also had 3 layers which varied in size. These objects an
 These images will serve as the input for the convolutional neural network. The goal is for the CNN to be given apparent resistivity images/values and be 
 able to predict what the true model looks like, i.e. where the objects are, what their size is, how deep the layers are, etc. 
 
-The first model is a simple UNET. 
+The first model is a simple UNET. Intersection over Union (IoU) is the metric used to measure improvement. 
